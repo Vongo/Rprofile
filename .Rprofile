@@ -125,6 +125,7 @@ attach(.env)
 
 if (interactive()) {
 	rutils::ws(F)
+	options(warn=1)
 }
 
 #theme_set(ggthemes::theme_few())
