@@ -205,4 +205,4 @@ theme_black=function(base_size=12, base_family="") {
 		)
 	})
 }
-theme_set(theme_black())
+if (interactive()) {ggplot2::theme_set(theme_black())}
